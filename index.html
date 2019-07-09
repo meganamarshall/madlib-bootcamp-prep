@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
   <title>MadLib</title>
 </head>
-<h1>My First Two Days at Bootcamp Prep</h1>
+<h1>My First Two Days at Bootcamp Prep: a Mad Lib</h1>
 <body>
   <section>
-    <h2>Fill in the blanks</h2>
+    <h2>Fill in the Blanks</h2>
     
     <p>
       <label>
@@ -53,17 +54,18 @@
       </label>
     </p>
 
+    
     <p>
       <label>
-        Direction (left, up, east, back, etc):
-        <input id="direction">
+        Number Higher Than One:
+        <input id="number">
       </label>
     </p>
-
+    
     <p>
       <label>
-        Number:
-        <input id="number">
+        Adjective:
+        <input id="adjective-three">
       </label>
     </p>
 
@@ -72,12 +74,12 @@
     </p>
   </section>
 
-  <section>
+  <section class="mad-lib">
     <h2>Read Your Mad Lib!</h2>
 
-    <p>On Monday, I learned about <span id="span-one"></span> the terminal. I almost got everything <span id="span-two"></span>, but ran into problems with the <span id="span-three"></span>.</p>
+    <p>On Monday, I learned about <span id="present-verb-span"></span> the terminal. I almost got everything <span id="adj-one-span"></span>, but ran into problems with the <span id="noun-one-span"></span>.</p>
 
-    <p>On Tuesday, I <span id="span-four"></span> on HTML and CSS. Wow, CSS is <span id="span-five"></span>! I <span id="span-six"></span> my first site. I’m looking <span id="span-seven"></span> to making <span id="span-eight"></span> more.</p>
+    <p>On Tuesday, I <span id="past-verb-span"></span> on HTML and CSS. Wow, CSS is <span id="adj-two-span"></span>! I <span id="past-verb-two-span"></span> my first site. I’m looking forward to making <span id="number-span"></span> more <span id="adj-three-span"></span>, functional web apps.</p>
   </section>
 </body>
 <script src="app.js"></script>
