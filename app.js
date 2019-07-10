@@ -16,6 +16,8 @@ const pastVerbTwoSpan = document.getElementById('past-verb-two-span');
 const numberSpan = document.getElementById('number-span');
 const adjThreeSpan = document.getElementById('adj-three-span');
 
+const madLibSection = document.getElementById('mad-lib');
+
 function makeMadLib() {
 
   presentVerbSpan.textContent = presentVerbInput.value;
@@ -27,4 +29,6 @@ function makeMadLib() {
   numberSpan.textContent = numberInput.value;
   adjThreeSpan.textContent = adjThreeInput.value;
 
+  madLibSection.classList.remove('hidden');
+  
 }

@@ -29,6 +29,6 @@ button {
   text-shadow: 1px 1px;
 }
 
-.mad-lib {
-  margin-top: 20vh;
+.hidden {
+  visibility: hidden;
 }
