@@ -7,80 +7,84 @@
   <link rel="stylesheet" href="main.css">
   <title>MadLib</title>
 </head>
-<h1>My First Two Days at Bootcamp Prep: a Mad Lib</h1>
 <body>
-  <section>
-    <h2>Fill in the Blanks</h2>
+  <header>
+    <h1>My First Two Days at Bootcamp Prep: a Mad Lib</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Fill in the Blanks</h2>
     
-    <p>
-      <label>
-        Present-Tense Verb:
-        <input id="present-tense-verb">
-      </label>
-    </p>
+      <p>
+        <label>
+          Present-Tense Verb:
+          <input id="present-tense-verb">
+        </label>
+      </p>
     
-    <p>
-      <label>
-        Adjective:
-        <input id="adjective-one">
-      </label>
-    </p>
+      <p>
+        <label>
+          Adjective:
+          <input id="adjective-one">
+        </label>
+      </p>
     
-    <p>
-      <label>
-        Noun:
-        <input id="noun-one">
-      </label>
-    </p>
-    
-    <p>
-      <label>
-        Past-Tense Verb:
-        <input id="past-tense-verb">
-      </label>
-    </p>
+      <p>
+        <label>
+          Noun:
+          <input id="noun-one">
+        </label>
+      </p>
+      
+      <p>
+        <label>
+          Past-Tense Verb:
+          <input id="past-tense-verb">
+        </label>
+      </p>
 
-    <p>
-      <label>
-        Adjective:
-        <input id="adjective-two">
-      </label>
-    </p>
+      <p>
+        <label>
+          Adjective:
+          <input id="adjective-two">
+        </label>
+      </p>
 
-    <p>
-      <label>
-        Past-Tense Verb:
-        <input id="past-tense-two">
-      </label>
-    </p>
+      <p>
+        <label>
+          Past-Tense Verb:
+          <input id="past-tense-two">
+        </label>
+      </p>
 
-    
-    <p>
-      <label>
-        Number Higher Than One:
-        <input id="number">
-      </label>
-    </p>
-    
-    <p>
-      <label>
-        Adjective:
-        <input id="adjective-three">
-      </label>
-    </p>
+      
+      <p>
+        <label>
+          Number Higher Than One:
+          <input id="number">
+        </label>
+      </p>
+      
+      <p>
+        <label>
+          Adjective:
+          <input id="adjective-three">
+        </label>
+      </p>
 
-    <p>
-      <button onclick="makeMadLib()">Make Your Mad Lib</button>
-    </p>
-  </section>
+      <p>
+        <button onclick="makeMadLib()">Make Your Mad Lib</button>
+      </p>
+    </section>
 
-  <section class="mad-lib">
-    <h2>Read Your Mad Lib!</h2>
+    <section class="mad-lib">
+      <h2>Read Your Mad Lib!</h2>
 
-    <p>On Monday, I learned about <span id="present-verb-span"></span> the terminal. I almost got everything <span id="adj-one-span"></span>, but ran into problems with the <span id="noun-one-span"></span>.</p>
+      <p>On Monday, I learned about <span id="present-verb-span"></span> the terminal. I almost got everything <span id="adj-one-span"></span>, but ran into problems with the <span id="noun-one-span"></span>.</p>
 
-    <p>On Tuesday, I <span id="past-verb-span"></span> on HTML and CSS. Wow, CSS is <span id="adj-two-span"></span>! I <span id="past-verb-two-span"></span> my first site. I’m looking forward to making <span id="number-span"></span> more <span id="adj-three-span"></span>, functional web apps.</p>
-  </section>
+      <p>On Tuesday, I <span id="past-verb-span"></span> on HTML and CSS. Wow, CSS is <span id="adj-two-span"></span>! I <span id="past-verb-two-span"></span> my first site. I’m looking forward to making <span id="number-span"></span> more <span id="adj-three-span"></span>, functional web apps.</p>
+    </section>
+  </main>
 </body>
 <script src="app.js"></script>
 </html>
